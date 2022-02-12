@@ -7,13 +7,12 @@ export const SidebarContainer = styled.aside`
   position: fixed;
   z-index: 999;
   width: 40%;
-  border-radius: 8px;
   padding: 2rem;
   background: rgba(93, 97, 124, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(9.5px);
   -webkit-backdrop-filter: blur(9.5px);
-  border-radius: 10px;
+  border-radius: 10px 0 0 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   align-items: flex-start;
   top: 0;
@@ -27,7 +26,11 @@ export const SidebarContainer = styled.aside`
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    width: 50%;
+    width: 60%;
+  }
+
+  @media ${props => props.theme.breakpoints.xsm} {
+    width: 70%;
   }
 `;
 

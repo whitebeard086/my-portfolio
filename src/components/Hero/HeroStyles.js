@@ -22,7 +22,6 @@ export const LeftSection = styled.div`
 
 export const Button = styled.div`
   margin: 3rem 0;
-  cursor: pointer; 
 
   &:active {
     -webkit-tap-highlight-color: rgba(45, 46, 73, 0.1);
@@ -40,6 +39,7 @@ export const ButtonText = styled.a`
   border: 2px solid ${props => props.theme.colors.button};
   border-radius: .6rem;
   padding: 1.3rem 3.5rem;
+  cursor: pointer;
 
   &:hover{
     background: rgba(225, 173,105, 0.1);

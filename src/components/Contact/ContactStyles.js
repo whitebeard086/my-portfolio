@@ -2,7 +2,6 @@ import styled from "styled-components"
 
 export const ContactButton = styled.div`
   margin: 3rem 0;
-  cursor: pointer;
   
   &:active {
     -webkit-tap-highlight-color: rgba(45, 46, 73, 0.1);
@@ -24,6 +23,7 @@ export const ContactItem = styled.a`
   border: 2px solid ${props => props.theme.colors.button};
   border-radius: .6rem;
   padding: 1.3rem 3rem;
+  cursor: pointer;
 
   &:hover {
     background: rgba(225, 173,105, 0.1);

@@ -143,7 +143,13 @@ export const Paragraph = styled.p`
 
 // Navigation Links
 export const LinkN = styled(Link)`
-  
+  &:active {
+    -webkit-tap-highlight-color: rgba(45, 46, 73, 0.1);
+  }
+
+  &:focus {
+    -webkit-tap-highlight-color: rgba(45, 46, 73, 0.1);
+  }
 `;
 
 export const NavLink = styled.a`

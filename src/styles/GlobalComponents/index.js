@@ -87,10 +87,13 @@ export const SectionDivider = styled.div`
   height: 6px;
   border-radius: 10px;
   background-color: #fff;
-  background: ${props =>
-    props.colorAlt
-      ? "linear-gradient(270deg, #F46737 0%, #945DD6 100%)"
-      : "linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)"};
+  background-image: #2d2e49;
+  background-image: radial-gradient(at 0% 100%, hsla(142, 78%, 72%, 1) 0, transparent 42%),
+    radial-gradient(at 22% 72%, hsla(237, 63%, 63%, 1) 0, transparent 45%),
+    radial-gradient(at 27% 3%, hsla(234, 86%, 75%, 1) 0, transparent 58%),
+    radial-gradient(at 65% 23%, hsla(35, 67%, 65%, 1) 0, transparent 54%),
+    radial-gradient(at 10% 37%, hsla(239, 20%, 69%, 1) 0, transparent 54%),
+    radial-gradient(at 79% 95%, hsla(233, 15%, 43%, 1) 0, transparent 51%);
 
   margin: ${props => (props.divider ? "4rem 0" : "")};
 

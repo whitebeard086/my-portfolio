@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'Cryptoverse',
     description:"A cryptocurrency news and general stats website that fetches real live data from Coinranking API. Built with React JS, Redux and Redux toolkit.",
-    image: '/images/Cryptoverse.svg',
+    image: '/images/cryptoverse.svg',
     tags: ['React JS', 'Redux', "Ant-design"],
     source: 'https://github.com/whitebeard086/cryptoverse',
     visit: 'https://cryptoverse1.netlify.app/',
@@ -31,7 +31,7 @@ export const projects = [
   {
     title: 'Blockchain Web App',
     description: "Blockchain app and smart contract built on Ropsten Ethereum testnet. You can send and receive test ETH on this app by connecting your Metamask wallet.",
-      image: '/images/Blockchain.svg',
+      image: '/images/blockchain.svg',
       tags: ['React JS', 'Tailwind CSS', "Solidity", "Blockchain"],
     source: 'https://github.com/whitebeard086/krypt3.0',
     visit: 'https://kryptapp.netlify.app/',
