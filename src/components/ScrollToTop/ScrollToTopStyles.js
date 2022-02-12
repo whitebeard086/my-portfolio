@@ -28,6 +28,10 @@ export const ScrollButton = styled.button`
     transition: .2s ease;
     background: rgba(160, 161, 191, 0.23);
   }
+
+  &:active {
+    -webkit-tap-highlight-color: rgba(45, 46, 73, 0.1);
+  }
 `;
 
 export const ScrollIcon = styled(FaArrowUp)``;

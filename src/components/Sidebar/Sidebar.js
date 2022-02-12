@@ -20,7 +20,7 @@ const Sidebar = ({ isOpen, toggleSideBar }) => {
                     </HeaderButton>
                 </MobileMenuLinks>
                     <SocialIconsContainer>
-                    <SocialIcons onClick={toggleSideBar} mobile passHref href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <SocialIcons onClick={toggleSideBar} mobile passHref href="https://github.com/whitebeard086" target="_blank" rel="noopener noreferrer">
                         <FiGithub size="2rem" />
                     </SocialIcons>
                     <SocialIcons onClick={toggleSideBar} mobile passHref href="https://linkedin.com" target="_blank" rel="noopener noreferrer">

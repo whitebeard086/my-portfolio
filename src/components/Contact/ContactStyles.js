@@ -3,6 +3,10 @@ import styled from "styled-components"
 export const ContactButton = styled.div`
   margin: 3rem 0;
   cursor: pointer;
+  
+  &:active {
+    -webkit-tap-highlight-color: rgba(45, 46, 73, 0.1);
+  }
 
   @media ${props => props.theme.breakpoints.md} {
     margin-left: 1.2rem;

@@ -22,7 +22,7 @@ export const Section = styled.section`
   @media ${props => props.theme.breakpoints.sm} {
     padding: ${props => (props.nopadding ? "0rem" : "16px 16px 0")};
     height: ${({ hero }) => (hero ? "auto" : "auto")};
-    margin: ${({ hero }) => (hero ? "5rem 0 20rem 0" : "default")};
+    margin: ${({ hero }) => (hero ? "0 0 20rem 0" : "default")};
     width: calc(100vw - 32px);
     flex-direction: column;
   }

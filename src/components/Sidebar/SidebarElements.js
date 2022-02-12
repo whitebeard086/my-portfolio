@@ -49,6 +49,10 @@ export const Icon = styled.div`
   font-size: 2rem;
   cursor: pointer;
   outline: none;
+
+  &:active {
+    -webkit-tap-highlight-color: rgba(45, 46, 73, 0.1);
+  }
 `;
 
 export const SidebarWrapper = styled.div``;
@@ -64,6 +68,10 @@ export const MobileMenuLinks = styled.div`
 
 export const HeaderButton = styled.div`
   cursor: pointer;
+
+  &:active {
+    -webkit-tap-highlight-color: rgba(45, 46, 73, 0.1);
+  }
 
   @media ${props => props.theme.breakpoints.md2} {
     display: ${props => (props.mobile ? "flex" : "none")};
@@ -98,10 +106,15 @@ export const NavLink = styled.a`
   margin-left: ${props => (props.logo ? "0" : "1rem")};
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
+
   &:hover {
     color: ${props => (props.logo ? "rgba(225, 173, 105, 0.5)" : "rgb(225, 173, 105)")};
     opacity: 1;
     cursor: pointer;
+  }
+
+  &:active {
+    -webkit-tap-highlight-color: rgba(45, 46, 73, 0.1);
   }
 
   @media ${props => props.theme.breakpoints.lg} {
@@ -132,9 +145,14 @@ export const SocialIcons = styled.a`
   color: rgba(255, 255, 255, 0.75);
   margin: 0 0 0 1rem;
   padding: 8px;
+
   &:hover {
     cursor: pointer;
     color: rgba(225, 173, 105);
+  }
+
+  &:active {
+    -webkit-tap-highlight-color: rgba(45, 46, 73, 0.1);
   }
 
   @media ${props => props.theme.breakpoints.lg} {

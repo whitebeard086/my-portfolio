@@ -90,6 +90,14 @@ export const ExternalLinks = styled.a`
     background: rgba(93, 97, 124, 0.6);
   }
 
+  &:focus {
+    -webkit-tap-highlight-color: rgba(45, 46, 73, 0.1);
+  }
+
+  &:active {
+    -webkit-tap-highlight-color: rgba(45, 46, 73, 0.1);
+  }
+
   &::after {
     position: absolute;
     content: "${(props) => props.code ? "view code" : "visit site"}";
