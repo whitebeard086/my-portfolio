@@ -25,10 +25,3 @@ export default {
     xl: "screen and (max-width: 1280px)",
   },
 };
-
-// background: rgba( 93, 97, 124, 0.15 );
-// box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-// backdrop-filter: blur( 9.5px );
-// -webkit-backdrop-filter: blur( 9.5px );
-// border-radius: 10px;
-// border: 1px solid rgba( 255, 255, 255, 0.18 );

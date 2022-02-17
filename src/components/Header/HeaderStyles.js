@@ -49,6 +49,16 @@ export const HeaderLogo = styled.div`
 
 export const HeaderButton = styled.div`
   cursor: pointer;
+
+  &:hover {
+    transition: 0.3s ease;
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    transition: 0.3s ease;
+    transform: translateY(6px);
+  }
   
   @media ${props => props.theme.breakpoints.md2} {
     display: ${props => (props.mobile ? "flex" : "none")};
@@ -56,7 +66,7 @@ export const HeaderButton = styled.div`
 `;
 
 export const HeaderButtonText = styled.a`
-  transition: 0.5s ease;
+  transition: 0.3s ease;
   color: ${props => props.theme.colors.button};
   font-weight: bold;
   border: 2px solid ${props => props.theme.colors.button};
