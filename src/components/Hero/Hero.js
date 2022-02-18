@@ -1,7 +1,8 @@
 import React from 'react';
+import styled from "styled-components";
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { LeftSection, Button, ButtonLink, ButtonText, Arrow } from './HeroStyles';
+import { LeftSection, Button, ButtonLink, ButtonText } from './HeroStyles';
 
 const Hero = () => (
   <Section style={{ paddingTop: "2rem" }} hero row nopadding>

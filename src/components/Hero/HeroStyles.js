@@ -1,5 +1,10 @@
 import Link from 'next/link';
 import styled from 'styled-components';
+import background from "../../../public/images/background.svg";
+
+export const HeroContainer = styled.div`
+
+`;
 
 export const LeftSection = styled.div`
   width: 100%;
